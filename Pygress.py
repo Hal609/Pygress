@@ -1,6 +1,6 @@
 import sys
 
-def progress_bar(iteration, total, bar_length=10):
+def progress_bar(iteration, total, bar_length=50):
     """
     Call in a loop to create a terminal progress bar.
     
@@ -18,5 +18,5 @@ def progress_bar(iteration, total, bar_length=10):
     sys.stdout.flush()
 
     # Print a newline at the end of the progress
-    if iteration == total:
+    if iteration == total - 1:
         print("\nDone!")

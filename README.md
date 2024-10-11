@@ -1,4 +1,4 @@
-# Pygress
+# pygress
 
 A simple Python progress bar utility for loops.
 
