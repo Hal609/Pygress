@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pretty_progress"
-version = "0.1.2"
+version = "0.1.3"
 description = "A Python module for creating a terminal progress bar."
 readme = "README.md"
 license = {text = "MIT License"}
